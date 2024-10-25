@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/key.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Password Generator</title>
+</head>
+
+<body>
+    <main class="main">
+        <div class="divtitle">
+            <h1 class="title">Password Generator</h1>
+        </div>
+        <div class="box">
+            <p class="question">How many characters should your password contain?</p>
+            <form action="#">
+                <input id="tamanho" class="digite" type="number" placeholder="Type here...">
+                <br>
+                <p>Your password must contain:</p>
+                <div class="options">
+                    <div class="letras">
+                        <input name="option" type="checkbox" id="letras" value="letras">
+                        <label for="letras">Letters</label>
+                    </div>
+                    <div class="number">
+                        <input name="option" type="checkbox" id="number" value="numbers">
+                        <label for="number">Numbers </label>
+                    </div>
+                    <div class="simbols">
+                        <input name="option" type="checkbox" id="simbols" value="simbols">
+                        <label for="simbols">Special characters</label>
+                    </div>
+                </div>
+                <br>
+                <input id="button" class="butto" value="Gerar Senha" type="button">
+            </form>
+
+            <div class="texte">
+                <p class="texto">Generated Password:</p>
+            
+            <div class="senha">
+                <input id="recebe" class="recebe" readonly type="text">
+            </div>
+        </div>
+        
+        </div>
+    </main>
+
+<script src="scripts/script.js"></script>
+</body>
+
+</html>

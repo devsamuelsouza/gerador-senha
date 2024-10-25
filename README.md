@@ -4,7 +4,7 @@ This project consists of a web application with the purpose of generating random
 
 ### 📋 Prerequisites
 
-This web application is available by typing "https://github.com/devsamuca/password-generator" in your browser or clicking the link below:
+This web application is available by typing "https://devsamuca.github.io/password-generator/" in your browser or clicking the link below:
 
 * [Passowrd Generator](https://bit.ly/gerador-de-senha)
 

@@ -12,6 +12,8 @@ Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar 
 
 This web application is available by typing "https://github.com/devsamuca/password-generator" in your browser or clicking the link below:
 
+* [Passowrd Generator](https://bit.ly/gerador-de-senha)
+
 ## 🛠️ Built with
 
 The following technologies and tools were used to carry out this project:

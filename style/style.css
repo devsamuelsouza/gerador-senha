@@ -16,7 +16,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
     background-image: url(../image/background.jpg);
     background-color: #ffffff;
     background-size: cover;

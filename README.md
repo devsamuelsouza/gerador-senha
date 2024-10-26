@@ -23,3 +23,5 @@ The following technologies and tools were used to carry out this project:
 
 We use [SemVer](http://semver.org/) for version control.
 
+By Samuel Souza 🌹
+

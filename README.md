@@ -21,7 +21,7 @@ The following technologies and tools were used to carry out this project:
 
 ## 📌 Version
 
-We use [SemVer](http://semver.org/) for version control.
+We use [SemVer](http://semver.org/) for version control. For available versions, see the [tags in this repository](https://github.com/devsamuca/password-generator/tags). 
 
 By Samuel Souza 🌹
 

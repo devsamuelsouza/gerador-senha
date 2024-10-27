@@ -12,6 +12,11 @@
 }
 
 body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    max-height: 100vh;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -19,6 +24,7 @@ body{
     background-image: url(../image/background.jpg);
     background-color: #ffffff;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .question{
@@ -50,6 +56,92 @@ body{
     background-color: #ffffff00;
 }
 
+#nuvem{
+    opacity: 0.5;
+    height: 12em;
+    position: absolute;
+    animation-name: nuvem;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes nuvem {
+    0% {
+        top: 6rem;
+        left: 0;
+    }
+    100%{
+        top: 6rem;
+        left: 100vw;
+    }
+
+}
+
+#nuvem2{           
+    opacity: 0.5;                     
+    height: 8em;
+    position: absolute;
+    animation-name: nuvem2;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes nuvem2 {
+    0% {
+        top: 1rem;
+        left: 100vw;
+    }
+    100%{
+        top: 1rem;
+        left: 0;
+    }
+
+}
+
+#nuvem3{
+    opacity: 0.5;
+    height: 15em;
+    position: absolute;
+    animation-name: nuvem3;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes nuvem3 {
+    0% {
+        top: 2.5rem;
+        left: 0;
+    }
+    100%{
+        top: 2.5rem;
+        left: 100vw;
+    }
+}
+
+#nuvem4{
+    opacity: 0.5;
+    height: 10em;
+    position: absolute;
+    animation-name: nuvem4 ;
+    animation-duration: 40s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes nuvem4  {
+    0% {
+        top: 2rem;
+        left: 100vw;
+    }
+    100%{
+        top: 2rem;
+        left: 0;
+    }
+}
+
 input{
     border-radius: 5px;
     border: solid 1px;
@@ -62,29 +154,26 @@ input[type=number]::-webkit-inner-spin-button{
 }
 
 input[type="checkbox"] {
-    -webkit-appearance: none;
-    -moz-appearance: none;
     appearance: none;
     width: 15px;
     height: 15px;
-    border: 2px solid #333;
+    border: 1px solid #333;
     border-radius: 3px;
     outline: none;
     cursor: pointer;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
 }
 
 input[type="checkbox"]:checked {
     background-color: #122C29;
-    border: 2px solid #122C29;
 }
 
-input[type="checkbox"]:checked::before {
+input[type="checkbox"]:checked::before{
     content: '✔';
     color: white;
-    font-size: 10px;
-    display: block;
-    text-align: center;
-    line-height: 18px;
+    font-size: 13px;
 }
 
 input:focus{

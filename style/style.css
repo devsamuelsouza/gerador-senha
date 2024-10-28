@@ -69,11 +69,11 @@ body{
 @keyframes nuvem {
     0% {
         top: 6rem;
-        left: 0;
+        transform: translateX(-120%);
     }
     100%{
         top: 6rem;
-        left: 100vw;
+        transform: translateX(120%);
     }
 
 }
@@ -91,11 +91,11 @@ body{
 @keyframes nuvem2 {
     0% {
         top: 1rem;
-        left: 100vw;
+        transform: translateX(120%);
     }
     100%{
         top: 1rem;
-        left: 0;
+        transform: translateX(-120%);
     }
 
 }
@@ -113,11 +113,11 @@ body{
 @keyframes nuvem3 {
     0% {
         top: 2.5rem;
-        left: 0;
+        transform: translateX(-120%);
     }
     100%{
         top: 2.5rem;
-        left: 100vw;
+        transform: translateX(120%);
     }
 }
 
@@ -134,11 +134,11 @@ body{
 @keyframes nuvem4  {
     0% {
         top: 2rem;
-        left: 100vw;
+        transform: translateX(120%);
     }
     100%{
         top: 2rem;
-        left: 0;
+        transform: translateX(-120%);
     }
 }
 

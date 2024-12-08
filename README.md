@@ -1,27 +1,26 @@
-# Password Generator
 
-This project consists of a web application with the purpose of generating random passwords, it is necessary for the user to pass as parameters the number of characters that the password must have, the types of characters that the password must have, numbers, letters and/or special characters must also be passed.
+# Gerador de Senhas
 
-### 📋 Prerequisites
+Este projeto consiste em uma aplicação web com o propósito de gerar senhas aleatórias. É necessário que o usuário forneça como parâmetros o número de caracteres que a senha deve ter e os tipos de caracteres desejados na senha: números, letras e/ou caracteres especiais também devem ser especificados.
 
-This web application is available by typing "https://devsamuca.github.io/password-generator/" in your browser or clicking the link below:
+### 📋 Pré-requisitos
 
-* [Passowrd Generator](https://bit.ly/gerador-de-senha)
+Esta aplicação web está disponível acessando "[https://devsamuca.github.io/gerador-senha/](https://devsamuca.github.io/password-generator/)" no seu navegador ou clicando no link abaixo:
 
-## 🛠️ Built with
+* [Gerador de Senhas](https://bit.ly/gerador-de-senha)
 
-The following technologies and tools were used to carry out this project:
+## 🛠️ Construído com
 
-* [HTML](https://www.w3schools.com/html/default.asp) 
+As seguintes tecnologias e ferramentas foram utilizadas para desenvolver este projeto:
+
+* [HTML](https://www.w3schools.com/html/default.asp)
 * [CSS](https://www.w3schools.com/css/default.asp)
 * [JavaScript](https://www.w3schools.com/js/default.asp)
 * [Vscode](https://code.visualstudio.com/)
 * [Git](https://git-scm.com/)
 
+## 📌 Versão
 
-## 📌 Version
+Utilizamos [SemVer](http://semver.org/) para o controle de versão. Para ver as versões disponíveis, consulte as [tags neste repositório](https://github.com/devsamuca/gerador-senha/tags).
 
-We use [SemVer](http://semver.org/) for version control. For available versions, see the [tags in this repository](https://github.com/devsamuca/password-generator/tags). 
-
-By Samuel Souza 🌹
-
+Por Samuel Souza 🌹

@@ -5,7 +5,7 @@ Este projeto consiste em uma aplicação web com o propósito de gerar senhas al
 
 ### 📋 Pré-requisitos
 
-Esta aplicação web está disponível acessando "[https://devsamuca.github.io/gerador-senha/](https://devsamuca.github.io/gerador-senha/)" no seu navegador ou clicando no link abaixo:
+Esta aplicação web está disponível acessando "[https://devsamuca.github.io/gerador-senha/](https://devsamuelsouza.github.io/gerador-senha/)" no seu navegador ou clicando no link abaixo:
 
 * [Gerador de Senhas](https://devsamuca.github.io/gerador-senha/)
 

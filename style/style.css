@@ -116,11 +116,10 @@ input:focus {
     cursor: pointer;
     border: 1px solid;
     width: 90%;
-    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
 }
 
 .butto:hover {
-    transform: scale(1.1);
     border: none;
     background-color: #ffffff;
     color: #000000;
@@ -166,11 +165,10 @@ input:focus {
     color: #ffffff;
     padding: 0.5em;
     border-radius: 0.5em;
-    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
 }
 
 #copiar:hover{
-    transform: scale(1.1);
     border: none;
     background-color: #ffffff;
     color: #000000;

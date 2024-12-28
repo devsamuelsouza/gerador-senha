@@ -52,94 +52,9 @@ body{
     text-align: center;
     box-shadow: 0px 0px 5px #46797A;
     padding: 20px;
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     background-color: #ffffff00;
-}
-
-#nuvem{
-    opacity: 0.5;
-    height: 12em;
-    position: absolute;
-    animation-name: nuvem;
-    animation-duration: 20s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-
-@keyframes nuvem {
-    0% {
-        top: 6rem;
-        transform: translateX(-120%);
-    }
-    100%{
-        top: 6rem;
-        transform: translateX(120%);
-    }
-
-}
-
-#nuvem2{           
-    opacity: 0.5;                     
-    height: 8em;
-    position: absolute;
-    animation-name: nuvem2;
-    animation-duration: 25s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-
-@keyframes nuvem2 {
-    0% {
-        top: 1rem;
-        transform: translateX(120%);
-    }
-    100%{
-        top: 1rem;
-        transform: translateX(-120%);
-    }
-
-}
-
-#nuvem3{
-    opacity: 0.5;
-    height: 15em;
-    position: absolute;
-    animation-name: nuvem3;
-    animation-duration: 30s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-
-@keyframes nuvem3 {
-    0% {
-        top: 2.5rem;
-        transform: translateX(-120%);
-    }
-    100%{
-        top: 2.5rem;
-        transform: translateX(120%);
-    }
-}
-
-#nuvem4{
-    opacity: 0.5;
-    height: 10em;
-    position: absolute;
-    animation-name: nuvem4 ;
-    animation-duration: 40s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-
-@keyframes nuvem4  {
-    0% {
-        top: 2rem;
-        transform: translateX(120%);
-    }
-    100%{
-        top: 2rem;
-        transform: translateX(-120%);
-    }
 }
 
 input{
@@ -259,6 +174,7 @@ input:focus{
         text-align: center;
         box-shadow: 0px 0px 5px #46797A;
         padding: 20px;
+        -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
         background-color: #ffffff00;
     }
